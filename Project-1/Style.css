@@ -1,156 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@300&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0px;
-    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 body{
-    height: 100vh;
-    width: 100vw;
-    background-color: #edf1fd;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-li{
-    list-style-type: none;
-    cursor: pointer;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-button{
-    background-color: rgb(18, 155, 155);
-    padding: 4px 10px;
-    cursor: pointer;
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-weight: 700;
-    width: fit-content;
-}
-button:hover{
-    background-color: white;
-    color: rgb(18, 155, 155);
-    border: 1px solid black;
+    background-image: url('./Assets/bacg.png');
+    background-size: cover;
 }
 header{
-    padding: 15px 0px;
+    max-height: 200px;
 }
-nav{
+header ul{
     display: flex;
-    width: 100%;
+    list-style-type:none;
     align-items: center;
-    justify-content: space-around;
+   flex-direction: row;
+   column-gap:95px;
 }
-nav.logo{
-    font-weight: 700;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+header ul li{
+    margin: 40px;
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    
-}
- nav li:hover{
-    text-decoration: underline;
-    font-weight: 900;
-    font-family: 'Poppins', sans-serif;
-}
-.search{
-    display: flex;
-    gap: 30px;
-
-}
-input{
-    padding: 4px 10px;
-}
-.hero-section{
-    display: flex;
-    align-items: center;
-}
-.hero-left-section{
-    width: 60%;
-    padding: 0 8% ;
-}
-
-.hero-left-section h1{
-   
-    font-weight: 800;
-    font-size: 38px;
-    margin-bottom: 16px;
-    font-family: 'Poppins', sans-serif;
-}
-.hero-left-section h1 span{
-    color: rgb(18, 155, 155);
-    font-weight: 900;
-    background-color: #dfdfe0;
-    font-family: 'Poppins', sans-serif;
-}
-.hero-left-section p{
-    font-weight: 500px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-}
-.hero-left-section p span{
-    font-size: 30px;
-    font-weight: 900;
-    color: rgb(18, 155, 155);
-    font-family: 'Poppins', sans-serif;
-}
-.hero-right-section{
-    display: flex;
-    flex-direction: column;
-width: 40%;
-/* align-content: center;
-justify-content:center; */
-align-items: center;
-gap: 30px;
-}
-.hero-right-section-button{
-    display: flex;
-    flex-direction: row;
-
-align-items: center;
-justify-content: center;
-/* text-align: center; */
-gap: 30px;
-
-}
-.hero-right-section img{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-}
-.hero-right-section img:hover{
-
-    background-color: black;
-    box-shadow:6px 8px 0px rgb(18, 155, 155);
-    /* border: 2px solid rgb(18, 155, 155); */
-    /* mix-blend-mode: hard-light; */
-    /* opacity: 50%; */
-    
-}
-footer{
+header ul li a{
+    text-decoration: none;
     font-weight: 600;
-    display: flex;
-    padding: 20px;
-    justify-content: space-around;
-    font-family: 'Poppins', sans-serif;
-}
-footer ul{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-footer ul li i:hover{
-    color: rgb(18, 155, 155);
-    font-weight: 900;
+    font-family: 'Yeseva One', cursive;
+    color: #ffc233;
+    transition: text-decoration 7s;
    
+
+}
+header ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: #f9f5ed;
+    text-decoration-color: #ffc233;
+}
+
+header ul li a button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #f9f5ed;
+    font-weight: 600;
+    border: none;
+    background-color: #ff515f;
+    border-radius: 5px;
+    /* transition: width 4s; */
+    transition: 1s ;
+
+}
+header ul li a button:hover{
+    background-color: #f9f5ed;
+    color: #ff515f;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 7%;
+}
+
+.main h1{
+   
+    font-weight: 900;
+    margin-top: 5%;
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    color: #ffc233;
+}
+main button{
+
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 250px;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #f9f5ed;
+    font-weight: 600;
+    border: none;
+    background-color: #ff515f;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+main button:hover{
+
+    background-color: #f9f5ed;
+    color: #ff515f;
+}
+footer {
+    position: relative;
+}
+footer img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
