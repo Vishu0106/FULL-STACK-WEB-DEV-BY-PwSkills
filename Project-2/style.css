@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+
+}
+header{
+    padding: 20px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 2%;
+    column-gap: 60px;
+}
+header ul img{
+    width: 120px;
+}
+header ul li{
+    text-decoration: none;
+    font-family: 'Golos Text', sans-serif;
+    /* width: 150px; */
+}
+header ul li a{
+    text-decoration: none;
+    color: #131313;
+    font-weight: 400;
+}
+header ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #6868f3;
+}
+header button{
+     padding: 15px 20px;
+    font-size: 15px;
+    /* width: 150px; */
+     margin-left: 40%;
+     font-weight: 600;
+     border-radius: 15px;
+     border: none;
+     background-color: #6868f3;
+     color: aliceblue;
+     font-family: 'Golos Text', sans-serif;
+}
+header button:hover{
+    background-color:aliceblue;
+    color:#6868f3;
+    border: 2px solid #6868f3;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    column-gap: 20px;
+}
+main div.left-section-main h1{
+
+    font-weight: 900;
+    font-size: 60px;
+    color: #6868f3;
+    font-family: 'Golos Text', sans-serif;
+
+}
+main div.left-section-main h1 span{
+    color: rgb(36, 36, 97);
+    font-family: 'Golos Text', sans-serif;
+}
+main div.left-section-main p{
+    font-weight: 600;
+    color: #808080;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Golos Text', sans-serif;
+}
+.button{
+
+    margin-top:5%;
+    padding: 15px 20px;
+    font-size: 14px;
+    width: 100px;
+     font-weight: 900;
+     border-radius: 15px;
+     width: 150px;
+     border: none;
+     background-color: #6868f3;
+     color: aliceblue;
+     font-family: 'Golos Text', sans-serif;
+}
+main  img{
+    
+    margin-bottom: 5%;
+    height:600px;
+    /* width: 800px; */
+}

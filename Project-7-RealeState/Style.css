@@ -1,0 +1,420 @@
+*
+{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+body
+{
+    background-color: #f6f8fa; 
+}
+/* for all butoons hover effect */
+button:hover{
+    cursor: pointer;
+}
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/ASSETS/Photos/mainBackground.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 125vh;
+      position: relative;
+}
+header nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 17px;
+    position: relative;
+    left: -35px;
+}
+header nav img
+{
+    scale: 0.7;
+}
+header nav ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+}
+header nav ul li a
+{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+hr
+{
+    margin: 0px 100px ;
+}
+header h1,.p,.button{
+    margin-left: 150px;
+}
+header h1
+{
+    color: white;
+    font-size: 72px;
+    margin-top: 85px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+header .p
+{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+
+}
+header button
+{
+    text-align: center;
+    padding: 10px 30px;
+    background-color: #6663e9;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+/* Logo Section Styling stats here */
+.LogoSection
+{
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 90px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    top: 300px;
+}
+/* VillasSection styling starts herre */
+.VillasSection
+{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.VillasSection h1
+{
+    font-size: 62px;
+    font-weight: 900;
+    text-align: center;
+}
+.firstRowCards
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
+.secondCard
+{
+    position: relative;
+    top: 25px;
+}
+.thirdCard
+{
+    position: relative;
+    top: 50px;
+}
+.fourthCard
+{
+    position: relative;
+    top: 50px;
+}
+.fivethCard
+{
+    position: relative;
+    top: 25px;
+}
+.eightCard
+{
+    position: relative;
+    top: 25px; 
+}
+.ninethCard
+{
+    position: relative;
+    top: 50px;
+}
+.secondRowCards
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
+.thirdRowCards
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
+.Bacgroundimg
+{
+    height: 400px;
+    width: 366px;
+    border-radius: 20px;
+    position: relative;
+}
+.UpperCard 
+{
+
+    margin-left: 20px;
+     background-color: #ffffff;
+     border-radius: 20px;
+     box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+     height: 120px;
+     width: 326px;
+     position:relative;
+     top: -70px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+.upperSmallCard
+{
+    display: flex;
+    flex-direction: column;
+} 
+.UpperCard div h3
+{
+    font-size: 24px;
+    color: #000000;
+    padding-top: 10px;
+}
+.UpperCard div p
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: #6663e9;
+    padding-top: 10px;
+}
+.UpperCard button
+{
+    text-align: center;
+    padding: 12px 30px;
+    background-color: #6663e9;
+    border: 2px solid #6663e9;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* feature styling strats here */
+.features-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+  }
+.features-section div {
+    width: 50%;
+  }                                                                        
+.first-feature-section div:first-child img:first-child {
+    position: absolute;
+    left: -80px;
+    z-index: -1;
+    width: 726px;
+    height: 456px;
+  }
+  .features-section div:first-child img:last-child {
+    position: relative;
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    bottom: 55px;
+    left: 110px;
+  }
+   /* designing the second div of feature box */
+   .features-section h1 {
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+  }
+  
+  .features-section p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #585c65;
+    margin-bottom: 40px;
+    max-width: 80%;
+  }
+  
+  .features-section button {
+        font-weight: 700;
+        background: #6663e9;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 30px;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 18px;
+  }
+
+  
+    /* designing the second feature section */
+    .second-feature-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .second-feature-section div {
+        width: 50%;
+      }
+      
+      .second-feature-section div:last-child{
+          position: relative;
+      }
+      
+      .second-feature-section div:last-child img:first-child {
+        position: absolute;
+        right: 0;
+        width: 726px;
+        height: 456px;
+        bottom: -220px;
+      }
+      
+      .second-feature-section div:last-child img:last-child {
+        position: absolute;
+        width: 405px;
+        height: 405px;
+        border-radius: 51px;
+        right: 135px;
+        bottom: -110px;
+      }
+      
+      .second-feature-section div:first-child {
+        padding: 0 50px;
+      }
+      
+      .second-feature-section div:first-child h1 {
+        width: 90%;
+      }
+      /* designing subscribe section */
+      .Subsciption-section
+      {
+        display: flex;
+        flex-direction: column;
+        background-color: #6663e9;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 70px 250px 60px;
+        margin:100px 70px 0 70px;
+        border-radius: 70px;
+        text-align: center;
+
+      }
+      .Subsciption-section h1
+      {
+          color: #ffffff;
+          font-weight: 900;
+          font-size: 60px;
+      }
+      .Subsciption-section p{
+
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 0 40px;
+      } 
+      /* form styling starts here */
+       form {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      
+       form div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: #5654d1;
+        border-radius: 40px;
+        width: 468px;
+        height: 61px;
+        padding: 0 20px;
+      }
+      form div input
+      {
+        background: transparent;
+        border: none;
+      }
+      form button
+      {
+        background-color: #ffffff;
+        color: #5654d1;
+        padding: 18px 40px;
+        font-size: 18px;
+        font-weight: 800;
+        border-radius: 50px;
+        border: none;
+      }
+    /* Desiging of Fotter starts here */
+    footer
+    {
+        margin: 100px 0 80px 100px;
+        display: flex;
+        align-items: center;
+        gap: 39%;
+
+    }
+
+    footer div p
+    {
+        font-size: 20px;
+    }
+    .SocialMedia-Section
+    {
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    footer div img
+    {
+       scale: 0.85;
+    }
+    footer .Right-Section
+    {
+        display: flex;
+        gap:120px;
+    }
+    /* Removing listing unorderlist */
+    footer .Right-Section ul
+    {
+        list-style: none;
+    }
+    footer .Right-Section ul li
+    {
+        padding-bottom: 25px;
+    }
+    footer .Right-Section ul li:first-child
+    {
+        font-size: 20px;
+        font-weight: 650;
+    }

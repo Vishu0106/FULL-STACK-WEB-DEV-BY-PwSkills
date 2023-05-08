@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../ASSETS/bg.png');
+     background-size: cover; 
+    
+}
+/* all butons on hover pointer changes to hand */
+button:hover{
+    cursor: pointer;
+}
+header{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: black;
+}
+header div{
+    margin-top: 10px;
+    margin-left: 3%;
+    border-right: 2px solid #ffffff;
+    margin-bottom: 10px;
+}
+header div a img{
+    /* border-right: 1px solid #ffffff; */
+    padding-right: 20px;
+    margin-left: 1%;
+    width: 150px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+    margin-left:50px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+header ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 2px;
+    color: #b90ec5;
+    transition: 2s;
+}
+header button{
+    margin-left: 40%;
+    padding: 10px 15px;
+    font-weight: 600;
+    background-color: #b90ec5;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: none;
+
+}
+main div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main div h1{
+    margin-top: 12%;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 67px;
+    font-family: 'Raleway', sans-serif;
+}
+main p{
+    margin-top: 1%;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+
+}
+main button{
+    margin-top: 2%;
+    padding: 20px 35px;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: #b90ec5;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right,#b90ec5,#7643E6);
+}
+main button:hover{
+    background-image: linear-gradient(to left,#b90ec5,#7643E6);
+    /* transition: 2s; */
+}

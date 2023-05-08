@@ -1,0 +1,454 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    margin-left: 221px;
+    margin-right: 15%;
+    background-color: #0f0f10;
+}
+
+nav{
+     display: flex;
+     flex-direction: row;
+}
+nav .logo{
+    padding: 41px 0px;
+
+}
+ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+    margin-left: 45%;
+    font-size: 14px;
+    font-weight: 770;
+    font-family: "Poppins", sans-serif;
+    padding-left:65px;
+    
+}
+ul li.one{
+    padding-top: 40px;
+    margin-top: 40px;
+    
+}
+nav button{
+    background-color: #1e1e21;
+    padding: 11px 42px;
+    border-radius: 8px;
+    color: #ffffff;
+   position: relative;
+   top: -1px;
+    font-family: "Poppins", sans-serif;
+
+
+}
+/* css for main body */
+main{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+.Left_Main_Section img{
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+
+}
+
+.Right_Main_Section{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+
+}
+.frstimg{
+  width: 320px;
+   margin-left: 50px;
+}
+.Right_Main_Section h1{
+    color: white;
+    font-weight: 520;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 0px;
+    
+}
+.Right_Main_Section .frstpara{
+           color: #ffffff;
+           font-weight: 500;
+           font-size: 15px;
+           font-family: "Poppins", sans-serif;
+           padding: 15px 0px 25px 0px;
+}
+.Right_Main_Section .scndpara{
+    color: #a8a6a6;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 0px 25px 0px;
+}
+
+/* small card styling */
+.smallCard{
+    background-color: #1e1e21;
+    display: flex;
+    border-radius: 7px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 10px 5px ;
+    width: 220px;
+}
+
+.shoppinfBag{
+    background-color: #1e1e21;
+}
+
+.addBagpara{
+    background-color: #1e1e21;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+.modelNumber{
+    background-color: #1e1e21;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+.SocialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    position: relative;
+    top: -50px;
+    margin-bottom: 40px;
+}
+.SocialMedia img{
+    scale: 0.8;
+}
+/* Specification css start here */
+.specificationSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Specimg
+{
+    scale: 0.8;
+    padding-bottom: 30px;
+}
+.SpecificationDown
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+
+}
+.SpecificationDown img
+{
+   scale: 0.8;
+}
+.SpecificationLeft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.SpecificationLeft p{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+    padding: 0px 0px 3px 0px;
+}
+.SpecificationLeft .SecondPara
+{
+    color: #a8a6a6;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 0px 3px 0px;
+    line-height: 15px;
+}
+.SpecificationLeft > div:first-child{
+    margin-left: 30px;
+}
+.SpecificationLeft > div:last-child{
+    margin-left: 30px;
+}
+.CaseSection
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.CaseTextImg
+{
+    scale: 0.8;
+}
+.CaseDownSection
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+}
+.CaseImg{
+    scale: 0.8;
+}
+.CaseImg:hover
+{
+    scale: 0.9;
+}
+.CaseDownRightSection
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+}
+.CaseDownRightSection p{
+
+    color: #a8a6a6;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+
+}
+.SamallButton
+{
+    background-color: #1e1e21;
+    display: flex;
+    border-radius: 7px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    width: 135px;
+   height: 40px;
+
+}
+.img{
+    background-color: #1e1e21;
+    scale: 0.8;
+}
+.SamallButton p
+{
+    background-color: #1e1e21;
+    font-size: 13px;
+    color: #ffffff;
+    
+}
+.BuyNow
+{
+    background-color: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 70px;
+    padding: 40px 0;
+}
+.BuyNowLeftSection
+{
+    width: 26%;
+}
+.BuyNowLeftSection .p{
+    color: #a8a6a6;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-bottom:15px;
+}
+.Headingpara
+{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+
+}
+.BuyNowCard
+{
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    background-color: black;
+    padding: 10px 20px;
+}
+.BuyNowCard p
+{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: white;
+}
+.BuyNowCard img{
+    scale: 0.8;
+}
+.BuyNowSectionImage
+{
+    margin-right: 10px;
+}
+
+/* styles tsyling starts here */
+.StylesSection
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    justify-content: center;
+
+}
+.StyleTExtImg
+{
+    scale: 0.3;
+}
+.Styles
+{
+    display: grid;
+    grid-template-columns: repeat(3,130px);
+    gap: 50px;
+    padding-left: 50px ;
+    padding-bottom: 50px;
+}
+.bgcbox
+{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+}
+.imgbox img
+{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+}
+.footerbox
+{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    padding: 10px 15px;
+    width: 100%;
+}
+.fotterimgbox
+{
+    background-color:black;
+    border-radius: 7px;
+    padding: 2px 5px;
+}
+.footerbox div img{
+   width: 13px;
+   height: 13px;
+}
+.footerbox p{
+    color: white;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.footerbox p span{
+    color: #a8a6a6;
+}
+/* fooetrmain Styling starts here */
+footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 145px;
+    margin: 50px 25px 80px;
+}
+footer img
+{
+    scale: 0.8;
+}
+.FooterLogo
+{
+    scale: 0.8;
+}
+.ProductAndSupport
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 170px;
+}
+.ProductAndSupport h5
+{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.ProductAndSupport p{
+    color: #a8a6a6;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+
+}
+.EmailAndSocialMedia
+{
+    display: flex;
+    flex-direction: column;
+   row-gap: 30px;
+}
+.EmailSupport
+{
+    background-color: #181a1b;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 30px;
+    width: 350px;
+    column-gap: 135px;
+    border-radius: 10px;
+}
+.EmailSupport p{
+    color: #a8a6a6;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+
+}
+.EmailSupport div{
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    background-color: black;
+    padding: 10px 20px;
+}
+.EmailSupport div p{
+    color: #ffffff;
+}
+.SocialmediaIcons
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
