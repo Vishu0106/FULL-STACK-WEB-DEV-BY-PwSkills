@@ -68,7 +68,7 @@ div.stline_main_first h1{
 div.secnd_main_first{
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 0px;
 }
 div.secnd_main_first h1{
 
@@ -108,6 +108,7 @@ div.project_para div.empty{
     grid-template-rows: 300px 300px;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .project1{
     display: flex;
