@@ -1,0 +1,122 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FEECE2;
+    gap: 20vw;
+
+}
+/* Univesion button hover effect */
+button , i:hover
+{
+    cursor: pointer;
+}
+.discription
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+.discription h1
+{
+    color: #956148;
+    font-size: 55px;
+}
+.discription p
+{
+    background-color: #FF7442;
+    padding: 16px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 550;
+}
+.main-body{
+
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 5px solid #956148;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+button:hover
+{
+   cursor:progress;
+}
+.main-body>p
+{
+    margin-right:25px;
+    align-self:flex-end;
+    font-size: 22px;
+    color: #d4ab96;
+    padding: 5px 0 0 0;
+}
+.result-box
+{
+    width: 350px;
+    min-height: 130px;
+    background-image: linear-gradient(to right,#FF8B4F 60%,#FF7442);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.result-box>p
+{
+    font-size: 40px;
+    padding: 5px 10px;
+    color: #ffffff;
+    word-wrap: break-word;
+}
+.input-box
+{
+    width: 350px;
+    height: 450;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,60px);
+    gap: 20px;
+}
+.input-box>div
+{
+   background-image: linear-gradient(to bottom,#FEECE2,#ECC8B6);
+   padding: 5px;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+button
+{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+.input-box>div:nth-child(16){
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    grid-column: 4;
+  }
+ .last-box>button
+ {
+    font-size: 25px;
+ }
