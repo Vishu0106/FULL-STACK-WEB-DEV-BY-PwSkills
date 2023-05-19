@@ -1,0 +1,92 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body
+{
+    background: linear-gradient(to right,#f25df2,#303088);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 150px;
+}
+
+.right-section
+{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-section h1
+{
+    color: #ffffff;
+    font-size: 70px;
+}
+.right-section p
+{
+    background-color: #ffffffff;
+    width: max-content;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 23px;
+    border-radius: 10px;
+}
+
+.left-section div
+{
+    margin: 130px 0px 20px 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 50vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.left-section input
+{
+    width: 80vh;
+    height:30px;
+}
+.left-section button
+{
+    background-color: transparent;
+    color: #303088;
+    font-size: 18px;
+    padding: 2px 20px;
+    border-radius: 3px;
+    border: 2px solid #303088;
+}
+.left-section button:hover
+{
+    background-color: #303088;
+    color: #ffffff;
+    cursor: pointer;
+}
+.left-section ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.left-section li
+{
+    font-size: 20px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    
+}
